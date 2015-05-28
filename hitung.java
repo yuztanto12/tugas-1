@@ -20,15 +20,15 @@ public class hitung {
 	{
 		s= new Scanner(System.in);
 		
-		System.out.print("Masukan Alas : ");
+		System.out.print("Masukan Nilai Alas : ");
 		alas=s.nextInt();
 		
-		System.out.print("Masukan Tinggi : ");
+		System.out.print("Masukan Nilai Tinggi : ");
 		tinggi=s.nextInt();
 		
 		luas=(alas*tinggi) / 2;
 		
-		System.out.print("(" + alas + " * " + tinggi + ") / 2 = " + luas);
+		System.out.print("(" + alas+ " * " + tinggi+ ") / 2 = " + luas);
 	}
 }
     
